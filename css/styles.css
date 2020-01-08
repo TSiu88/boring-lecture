@@ -28,7 +28,7 @@ img.intro{
 }
 
 body{
-  background-color: beige;
+  background-color: rgb(49, 141, 84);
 }
 
 h2{
@@ -39,7 +39,17 @@ p{
   font-style: italic;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px){
+  img{
+    width: 250px;
+  }
+
+  p{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 480px) {
   img{
     width: 300px;
   }
