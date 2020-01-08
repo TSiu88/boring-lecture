@@ -38,3 +38,46 @@ h2{
 p{
   font-style: italic;
 }
+
+@media screen and (max-width: 600px) {
+  img{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+  .starter{
+    background-color: darkcyan;
+    color: whitesmoke;
+  }
+
+  body{
+    background-color: darkslategray;
+    color: linen;
+  }
+
+  p{
+    font-size: 18px;
+  }
+
+  .highlight{
+    background-color: cadetblue;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .column {
+    column-count: 3;
+    column-fill: auto;
+    float: left;
+    padding: 20px;
+  }
+
+  img{
+    width: 800px;
+  }
+
+  p{
+    font-size: 25px;
+  }
+}
