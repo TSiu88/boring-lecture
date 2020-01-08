@@ -1,10 +1,14 @@
-h2.intro{
+.starter{
   color: darkgray;
+  background-color: darkslategrey;
+  text-align: center;
+}
+
+h2.intro{
   font-weight: bold;
 }
 
 p.intro{
-  color: gray;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -13,6 +17,14 @@ img.intro{
   border-width: 10px;
   border-color: white;
   border-radius: 20px;
+}
+
+.highlight{
+  background-color: aqua;
+}
+
+.lowlight{
+  font-weight: bold;
 }
 
 body{
