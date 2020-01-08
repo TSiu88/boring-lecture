@@ -1,0 +1,28 @@
+h2.intro{
+  color: darkgray;
+  font-weight: bold;
+}
+
+p.intro{
+  color: gray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img.intro{
+  border-style: double;
+  border-width: 10px;
+  border-color: white;
+  border-radius: 20px;
+}
+
+body{
+  background-color: beige;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  font-style: italic;
+}
