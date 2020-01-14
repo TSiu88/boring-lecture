@@ -1,6 +1,12 @@
 $(document).ready(function(){
   $("#colorChange").click(function(){
-    $("body").removeClass();
-    $("body").addClass("purpleTheme");
+    if ($("body").hasClass('greenTheme')) {
+      $("body").removeClass();
+      $("body").addClass("purpleTheme");
+    }
+    else {
+      $("body").removeClass();
+      $("body").addClass("greenTheme");
+    }
   });
 });
