@@ -27,8 +27,12 @@ img.intro{
   font-weight: bold;
 }
 
-body{
+.greenTheme{
   background-color: rgb(49, 141, 84);
+}
+
+.purpleTheme{
+  background-color: blueviolet;
 }
 
 h2{
